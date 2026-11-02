@@ -1,5 +1,7 @@
 # ftpg
 
+[![build](https://github.com/lightward/ftpg/actions/workflows/build.yml/badge.svg)](https://github.com/lightward/ftpg/actions/workflows/build.yml)
+
 A Lean 4 / Mathlib proof of the **fundamental theorem of projective geometry**, in its
 lattice-theoretic form, with no `sorry` and no axioms beyond Lean's standard three
 (`propext`, `Classical.choice`, `Quot.sound`). It also includes a proof that the
@@ -90,6 +92,7 @@ Two notes on what's in the archive:
   build files. `lake-manifest.json` is foam's `bridges` manifest with the `foam`
   dependency removed, so the Mathlib pin is the one the proof was checked against.
 
-Isaac Bowen, with Claude (Opus 4.8 and Fable 5).
+Proven by Isaac Bowen, with Claude (Opus 4.8 and Fable 5). Archived by Isaac Bowen,
+with Claude (Opus 5.5).
 
 Public domain ([UNLICENSE](UNLICENSE)).
